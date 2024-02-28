@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#bits-logo {
+  position: absolute;
+  margin: 20px;
+  position: relative;
+  opacity: 1;
+  z-index: 3;
+  max-width: 100px;
+}
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+#background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: fill;
+}
+.logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  z-index: 5;
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.container {
+    background-color: rgba(255, 0, 0, 0.164);
+  z-index: 2;
+  max-width: 955px;
+  border: 4px solid rgba(247, 119, 0, 0.377);
+  border-radius: 20px;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+}
+
+.message {
+  background-color: rgba(230, 68, 255, 0.729);
+  width: 24%;
+  max-width: 200 px;
+  word-wrap: break-word;
+  height: auto;
+  padding: 10px;
+  font-weight: bold;
+  margin: 17px 12px;
+  border: 2px solid rgb(71, 25, 84);
+  border-radius: 20px;
+  font: 100;
+  font-family: "Poppins", Impact, "Arial Narrow Bold", sans-serif;
+  color: rgb(86, 18, 94);
+}
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 1085px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#messageInp {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+  font-size: 22px;
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+.btn {
+  margin: 5px 5px;
+  width: 15%;
+  cursor: pointer;
+  border: 4px solid rgb(80, 18, 104);
+  border-radius: 10px;
+  height: 50px;
+  color: rgb(99, 3, 132);
+  background-color: rgb(244, 134, 229);
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(79, 230, 76);
+  cursor: grab;
+}
+.btn:active{
+    cursor: grabbing;
+}
+
+input {
+  font-size: 7px;
+  text-align: center;
+}
+
+.hero {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+
+  z-index: -4;
+}
+
+nav {
+  z-index: 2;
+}
+#head {
+  font-size: auto;
+  color: antiquewhite;
+}
+#text {
+  color: whitesmoke;
+  font-style: normal;
+}
+p {
+  z-index: 5;
+  font-size: 30px;
+}
+#about{
+  
+    position: fixed;
+    z-index: 5;
+    
+    bottom: 10 px;
+    right: 10 px;
+    width: 15%;
+    cursor: pointer;
+    border: 4px solid rgb(80, 18, 104);
+    border-radius: 10px;
+    height: 50px;
+   font-weight: bold;
+    background-color: rgb(244, 134, 229);
+    color: rgb(99, 3, 132);
+}
+
+  
+  #about:hover {
+    background-color: rgb(79, 230, 76);
+    cursor: grab;
+  }
+  #about:active{
+      cursor: grabbing;
+  }
+.bdiv{
+    display: flex;
+    width: auto;
+    position: absolute;
+    bottom: 70px;
+    justify-content: center;
+    align-items: end;
+    
+}
+.follower {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background-color: #3498db; /* Change the color as desired */
+    border-radius: 50%;
+    pointer-events: none; /* Ensures that the follower does not interfere with mouse events on other elements */
+}
